@@ -25,7 +25,7 @@ export const team_details: TeamDetails = [
             },
             {
                 name: 'Mohanavel SK',
-                role: 'Secretary',
+                role: 'Associate Head of the Club',
                 department: 'AIML',
                 image: 'images/avatars/mohanavel-e0122201.JPG',
                 github: 'https://github.com/mohanavel15',
@@ -103,15 +103,9 @@ export const team_details: TeamDetails = [
             {
                 name: 'Ajai Arjun G',
                 role: 'Head of the Club',
-                department: 'Medical Engineering',
+                department: 'Med Engg',
                 image: 'images/avatars/ajai-arjun-g.png',
-            },
-            {
-                name: 'Narayani SK',
-                role: 'Joint Secretary',
-                department: 'AIDA',
-                image: 'images/avatars/narayani-s.png',
-                linkedin: 'https://www.linkedin.com/in/narayani-suresh',
+                linkedin: 'https://www.linkedin.com/in/ajai-arjun/'
             },
             {
                 name: 'Sri Krishna Bellam',
@@ -121,20 +115,30 @@ export const team_details: TeamDetails = [
                 linkedin: 'https://www.linkedin.com/in/sri-krishna-bellam-741673223/',
             },
             {
+                name: 'Narayani SK',
+                role: 'Joint Secretary',
+                department: 'AIDA',
+                image: 'images/avatars/narayani-s.png',
+                linkedin: 'https://www.linkedin.com/in/narayani-suresh',
+            },
+            {
                 name: 'Raghuraman S',
-                role: 'Student Coordinator',
+                role: 'Joint Secretary',
                 department: 'AIML',
                 image: 'images/avatars/raghuraman-s.png',
+                linkedin: 'https://www.linkedin.com/in/richycubey/',
             },
             {
                 name: 'Revanth ND',
                 role: 'Student Coordinator',
                 department: 'AIML',
+                linkedin: 'https://www.linkedin.com/in/revanth-nd-09/'
             },
             {
-                name: 'Vaishnaviy',
+                name: 'Vaishnaviy S',
                 role: 'Student Coordinator',
-                department: 'AIML',
+                department: 'Med Engg',
+                linkedin: 'https://www.linkedin.com/in/vaishnaviy003/'
             },
             {
                 name: 'Rajitvel Perumal D',
@@ -154,42 +158,54 @@ export const team_details: TeamDetails = [
                 role: 'Head of the Club & Secretary',
                 department: 'AIML',
                 image: 'images/avatars/thanushraam-sk.png',
+                email: 'skthanushraam@gmail.com',
+                github: 'https://github.com/Tr0612',
                 linkedin: 'https://www.linkedin.com/in/thanushraam-suresh-kumar/',
             },
             {
                 name: 'Medha Ragavendra Prasad',
-                role: 'Student Coordinator',
+                role: 'Associate Head of the Club',
                 department: 'AIML',
+                linkedin: 'https://www.linkedin.com/in/medha-raghavendra-prasad-219a23217/'
+            },
+            {
+                name: 'Narayani SK',
+                role: 'Joint Secretary',
+                department: 'AIDA',
+                image: 'images/avatars/narayani-s.png',
+                linkedin: 'https://www.linkedin.com/in/narayani-suresh',
             },
             {
                 name: 'Chinnam Vamsi Krishna',
                 role: 'Student Coordinator',
                 department: 'AIML',
-            },
-            {
-                name: 'Narayani SK',
-                role: 'Joint Secretary',
-                department: 'AIML',
+                email: 'chinnamvamsi66@gmail.com',
+                linkedin: 'https://www.linkedin.com/in/vamsi-krishna-chinnam-149638204/',
             },
             {
                 name: 'Ajai Arjun G',
                 role: 'Junior Student Coordinator',
                 department: 'AIML',
+                image: 'images/avatars/ajai-arjun-g.png',
+                linkedin: 'https://www.linkedin.com/in/ajai-arjun/'
             },
             {
                 name: 'Revanth ND',
                 role: 'Junior Student Coordinator',
                 department: 'AIML',
+                linkedin: 'https://www.linkedin.com/in/revanth-nd-09/'
             },
             {
                 name: 'Doss M',
                 role: 'Junior Student Coordinator',
                 department: 'AIML',
+                linkedin: 'https://www.linkedin.com/in/doss-m-443748259/'
             },
             {
                 name: 'Joshua Henry',
                 role: 'Junior Student Coordinator',
                 department: 'Cybersecurity & IoT',
+                linkedin: 'https://www.linkedin.com/in/joshua-henry2003',
             },
             {
                 name: 'Rajitvel Perumal D',
