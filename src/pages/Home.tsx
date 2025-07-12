@@ -1,12 +1,9 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import { ArrowRight, Users, Calendar, BookOpen, Zap, Target, Award, TrendingUp } from 'lucide-react';
+import { Users, Calendar, Target, Award } from 'lucide-react';
 
 const Home: React.FC = () => {
   const stats = [
-    // { label: 'Active Members', value: '150+', icon: Users },
     { label: 'Events Conducted', value: '25+', icon: Calendar },
-    // { label: 'Projects Completed', value: '40+', icon: BookOpen },
     { label: 'Years Active', value: '3+', icon: Award },
   ];
 
@@ -41,7 +38,6 @@ const Home: React.FC = () => {
 
   return (
     <div className="space-y-20">
-      {/* Hero Section */}
       <section className="relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-blue-600/10 via-purple-600/10 to-teal-600/10"></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
@@ -59,26 +55,9 @@ const Home: React.FC = () => {
               Empowering the next generation of AI innovators through hands-on learning, collaborative projects,
               and cutting-edge research in Machine Learning and Artificial Intelligence.
             </p>
-
-            {/* <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-              <Link
-                to="/join-us"
-                className="group bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-4 rounded-full font-semibold text-lg hover:from-blue-700 hover:to-purple-700 transition-all duration-300 flex items-center space-x-2 shadow-lg hover:shadow-xl hover:scale-105"
-              >
-                <span>Join the Revolution</span>
-                <ArrowRight className="h-5 w-5 group-hover:translate-x-1 transition-transform" />
-              </Link>
-              <Link
-                to="/about"
-                className="px-8 py-4 rounded-full font-semibold text-lg border-2 border-slate-300 dark:border-slate-600 text-slate-700 dark:text-slate-300 hover:border-blue-500 hover:text-blue-600 dark:hover:text-blue-400 transition-all duration-300"
-              >
-                Learn More
-              </Link>
-            </div> */}
           </div>
         </div>
 
-        {/* Animated Background Elements */}
         <div className="absolute inset-0 overflow-hidden pointer-events-none">
           <div className="absolute -top-40 -right-40 w-80 h-80 bg-blue-400 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-blob"></div>
           <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-purple-400 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-blob animation-delay-2000"></div>
@@ -86,15 +65,11 @@ const Home: React.FC = () => {
         </div>
       </section>
 
-      {/* Features Section */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-slate-900 dark:text-white mb-4">
             Why Join Our ML Club?
           </h2>
-          {/* <p className="text-lg text-slate-600 dark:text-slate-400 max-w-2xl mx-auto">
-            Discover the benefits of being part of our vibrant machine learning community
-          </p> */}
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -124,7 +99,7 @@ const Home: React.FC = () => {
           ))}
         </div>
       </section>
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 flex flex-col mb-24">
       </div>
     </div>
   );
