@@ -6,11 +6,11 @@ const Footer: React.FC = () => {
   return (
     <footer className="bg-slate-900 dark:bg-slate-950 text-white flex flex-col">
       <div className='flex justify-center w-full pt-8'>
-        <div className='flex my-3 gap-8 bg-white p-4 rounded-lg'>
-            <img src="sret/sret-logo.png" className='h-24'></img>
-            <img src="sret/iic-logo.png" className='h-24'></img>
-            <img src="sret/sriic-photoroom.png" className='h-24'></img>
-            <img src="sret/sustainable-development-goal-quality-education.png" className='h-24'></img>
+        <div className='animate-marquee flex flex-row lg:flex-row my-3 gap-4 bg-white p-4 rounded-lg overflow-x-scroll max-w-full'> 
+          <img src="sret/sret-logo.png" className='h-20'></img>
+          <img src="sret/iic-logo.png" className='h-20'></img>
+          <img src="sret/sriic-photoroom.png" className='h-20'></img>
+          <img src="sret/sustainable-development-goal-quality-education.png" className='h-20'></img>
         </div>
       </div>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -36,7 +36,7 @@ const Footer: React.FC = () => {
                 <Linkedin className="h-5 w-5" />
               </a>
             </div>
-          </div>    
+          </div>
           <div className='flex flex-col items-center gap-2'>
             <h3 className="text-lg font-semibold mb-2">Quick Links</h3>
             <Link to="/about" className="block text-slate-400 hover:text-white transition-colors text-sm">About Us</Link>
