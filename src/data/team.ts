@@ -33,13 +33,6 @@ export const team_details: TeamDetails = [
                 email: 'mailtomohan.dev@gmail.com'
             },
             {
-                name: 'Vikaash B',
-                role: 'Speaker & Event Host',
-                department: 'AIML',
-                image: 'images/avatars/vikaash-e0122049.jpeg',
-                linkedin: 'https://www.linkedin.com/in/vikaash-b-b2a543258/',
-            },
-            {
                 name: 'Mohammadul Hassan A',
                 role: 'Student Coordinator',
                 department: 'AIML',
@@ -54,6 +47,13 @@ export const team_details: TeamDetails = [
                 department: 'AIML',
                 image: 'images/avatars/saathvick-e0122008.png',
                 github: 'https://github.com/Saathvick',
+            },
+            {
+                name: 'Vikaash B',
+                role: 'Speaker & Event Host',
+                department: 'AIML',
+                image: 'images/avatars/vikaash-e0122049.jpeg',
+                linkedin: 'https://www.linkedin.com/in/vikaash-b-b2a543258/',
             },
             {
                 name: 'Leelanandha Kishore',
