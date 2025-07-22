@@ -7,7 +7,7 @@ const Footer: React.FC = () => {
     <footer className="bg-slate-900 dark:bg-slate-950 text-white flex flex-col">
       <div className='flex justify-center w-full pt-8'>
         <div className='animate-marquee flex flex-row lg:flex-row my-3 gap-4 bg-white p-4 rounded-lg overflow-x-scroll max-w-full'> 
-          <img src="sret/sret-logo.png" className='h-20'></img>
+          <img src="sret/sret-logo-cropped.png" className='h-20'></img>
           <img src="sret/iic-logo.png" className='h-20'></img>
           <img src="sret/sriic-photoroom.png" className='h-20'></img>
           <img src="sret/sustainable-development-goal-quality-education.png" className='h-20'></img>

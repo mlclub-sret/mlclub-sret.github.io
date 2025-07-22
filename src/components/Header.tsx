@@ -13,9 +13,9 @@ const Header: React.FC = () => {
   const navigation = [
     { name: 'Home', href: '/', current: location.pathname === '/' },
     { name: 'About', href: '/about', current: location.pathname === '/about' },
-    { name: 'Team', href: '/team', current: location.pathname === '/team' },
-    { name: 'Events', href: '/events', current: location.pathname === '/events' },
     { name: 'Gallery', href: '/gallery', current: location.pathname === '/gallery' },
+    { name: 'Events', href: '/events', current: location.pathname === '/events' },
+    { name: 'Team', href: '/team', current: location.pathname === '/team' },
     // { 
     //   name: 'Learn', 
     //   current: ['/projects', '/resources', '/blog'].includes(location.pathname),

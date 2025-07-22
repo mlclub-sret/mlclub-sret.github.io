@@ -8,6 +8,8 @@ type EventDetails = {
     description: string,
     image: string,
     tags: string[]
+    cta_name?: string,
+    cta_link?: string,
     feedback?: string,
 }[];
 
@@ -19,7 +21,7 @@ export const events: EventDetails = [
       location: 'Class Room To Be Announced',
       type: 'Workshop',
       description: 'Offering interactive game session to teach concepts of AI & ML.',
-      image: 'events/Capture-The-Castle-Poster-25.06.2025.png',
+      image: 'events/PatternPursuit-23.07.2025.jpeg',
       tags: [],
     },
     {
@@ -32,6 +34,9 @@ export const events: EventDetails = [
       description: 'Exploring Machine Learning concepts through crossword puzzles.',
       image: 'events/ML-Mind-Maze-Poster-16.07.2025.png',
       tags: ['Deep Learning', 'Machine Learning', 'Critical Thinking'],
+      cta_name: 'Play The Game',
+      cta_link: 'https://www.educaplay.com/learning-resources/24552040-navigating_the_ml_mind_maze.html',
+      feedback: 'https://forms.gle/nVcuVcWkNZjytCR69',
     },
     {
       title: 'Capture The Castle',

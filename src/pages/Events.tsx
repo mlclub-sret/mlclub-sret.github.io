@@ -99,13 +99,20 @@ const Events: React.FC = () => {
                       </span>
                     ))}
                   </div>
-
-                  { event.feedback && <div className="pt-4">
-                    <Link to={event.feedback} target="_blank" className="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white py-2 px-4 rounded-lg font-medium hover:from-blue-700 hover:to-purple-700 transition-all duration-300 flex items-center justify-center space-x-2">
-                      <span>Feedback</span>
-                      <ExternalLink className="h-4 w-4" />
-                    </Link>
-                  </div> }
+                  <div className='flex flex-col'>
+                    { (event.cta_name && event.cta_link) && <div className="pt-4">
+                      <Link to={event.cta_link} target="_blank" className="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white py-2 px-4 rounded-lg font-medium hover:from-blue-700 hover:to-purple-700 transition-all duration-300 flex items-center justify-center space-x-2">
+                        <span>{event.cta_name}</span>
+                        <ExternalLink className="h-4 w-4" />
+                      </Link>
+                    </div> }
+                    { event.feedback && <div className="pt-4">
+                      <Link to={event.feedback} target="_blank" className="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white py-2 px-4 rounded-lg font-medium hover:from-blue-700 hover:to-purple-700 transition-all duration-300 flex items-center justify-center space-x-2">
+                        <span>Feedback</span>
+                        <ExternalLink className="h-4 w-4" />
+                      </Link>
+                    </div> }
+                  </div>
                 </div>
               </div>
             ))}
