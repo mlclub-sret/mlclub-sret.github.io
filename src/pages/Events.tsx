@@ -101,7 +101,7 @@ const Events: React.FC = () => {
                   </div>
 
                   { event.feedback && <div className="pt-4">
-                    <Link to={event.feedback} className="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white py-2 px-4 rounded-lg font-medium hover:from-blue-700 hover:to-purple-700 transition-all duration-300 flex items-center justify-center space-x-2">
+                    <Link to={event.feedback} target="_blank" className="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white py-2 px-4 rounded-lg font-medium hover:from-blue-700 hover:to-purple-700 transition-all duration-300 flex items-center justify-center space-x-2">
                       <span>Feedback</span>
                       <ExternalLink className="h-4 w-4" />
                     </Link>

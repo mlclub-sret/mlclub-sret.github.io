@@ -25,7 +25,7 @@ const Header: React.FC = () => {
     //     { name: 'Blog', href: '/blog' }
     //   ]
     // },
-    // { name: 'Contact', href: '/contact', current: location.pathname === '/contact' }
+    { name: 'Contact', href: '/contact', current: location.pathname === '/contact' }
   ];
 
   useEffect(() => {
@@ -54,7 +54,7 @@ const Header: React.FC = () => {
             </div>
             <div className="hidden sm:block">
               <div className="text-xl font-bold text-slate-900 dark:text-white">Machine Learning Club</div>
-              <div className="text-sm text-slate-600 dark:text-slate-400">SRET</div>
+              <div className="text-sm text-slate-600 dark:text-slate-400">Sri Ramachandra Faculty of Engineering and Technology</div>
             </div>
           </Link>
 

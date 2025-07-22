@@ -42,13 +42,14 @@ const Home: React.FC = () => {
         <div className="absolute inset-0 bg-gradient-to-br from-blue-600/10 via-purple-600/10 to-teal-600/10"></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
           <div className="text-center space-y-8">
+            <div className='w-full flex items-center justify-center'>
+              <img src="sret/sret-logo-cropped.png" className=''></img>
+            </div>
             <div className="space-y-4">
               <h1 className="lg:h-24 md:h-16 text-4xl md:text-6xl lg:text-7xl font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-teal-600 bg-clip-text text-transparent">
                 Machine Learning Club
               </h1>
-              <h2 className="text-xl md:text-2xl text-slate-700 dark:text-slate-300 font-medium">
-                Sri Ramachandra Faculty of Engineering and Technology
-              </h2>
+              {/* <h2 className="text-xl md:text-2xl text-slate-700 dark:text-slate-300 font-medium"> Sri Ramachandra Faculty of Engineering and Technology </h2> */}
             </div>
 
             <p className="text-lg md:text-xl text-slate-600 dark:text-slate-400 max-w-3xl mx-auto leading-relaxed">
