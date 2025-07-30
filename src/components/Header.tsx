@@ -38,7 +38,7 @@ const Header: React.FC = () => {
           <Link to="/" className="flex items-center space-x-3 group">
             <div className="flex flex-col items-center justify-center">
               <div className="relative rounded-xl w-56">
-                <img src={"public/sret/sret-logo-cropped.png"} />
+                <img src={"sret/sret-logo-cropped.png"} />
               </div>
               <div className="flex flex-col items-center justify-center text-lg font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-teal-600 bg-clip-text text-transparent">Machine Learning Club</div>
             </div>
