@@ -78,7 +78,7 @@ const About: React.FC = () => {
               <h2 className="text-3xl font-bold text-slate-900 dark:text-white">Our Vision</h2>
             </div>
             <p className="text-lg text-slate-600 dark:text-slate-400 leading-relaxed">
-            Our aspiration is to establish ourselves as a prominent technical club within SRET, gaining recognition from SRIHER. This transformative initiative ensures that the club embarks on a pioneering journey, positioning itself to meet the evolving needs of the future. Ultimately, this enhancement will elevate the ML Club to new heights, setting a benchmark for club organisations within SRET and contributing to the overall improvement of the college’s standards.
+            Our aspiration is to establish ourselves as a prominent technical club. This transformative initiative ensures that the club embarks on a pioneering journey, positioning itself to meet the evolving needs of the future. Ultimately, this enhancement will elevate the ML Club to new heights, setting a benchmark for club organisations within SRET and contributing to the overall improvement of the college's standards.
             </p>
           </div>
         </div>

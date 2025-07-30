@@ -180,6 +180,7 @@ export const team_details: TeamDetails = [
                 role: 'Student Coordinator',
                 department: 'AIML',
                 email: 'chinnamvamsi66@gmail.com',
+                image: 'images/avatars/vamsi-krishna.jpeg',
                 linkedin: 'https://www.linkedin.com/in/vamsi-krishna-chinnam-149638204/',
             },
             {

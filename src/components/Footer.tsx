@@ -41,11 +41,12 @@ const Footer: React.FC = () => {
             <h3 className="text-lg font-semibold mb-2">Quick Links</h3>
             <Link to="/about" className="block text-slate-400 hover:text-white transition-colors text-sm">About Us</Link>
             <Link to="/team" className="block text-slate-400 hover:text-white transition-colors text-sm">Our Team</Link>
-            <Link to="/events" className="block text-slate-400 hover:text-white transition-colors text-sm">Events</Link>
+            <Link to="/contact" className="block text-slate-400 hover:text-white transition-colors text-sm">Contact Us</Link>
           </div>
           <div className='flex flex-col items-center gap-2'>
             <h3 className="text-lg font-semibold mb-2">Get Involved</h3>
             <Link to="/gallery" className="block text-slate-400 hover:text-white transition-colors text-sm">View Gallery</Link>
+            <Link to="/events" className="block text-slate-400 hover:text-white transition-colors text-sm">Events</Link>
           </div>
         </div>
         <div className="border-t border-slate-800 mt-12 pt-8 text-center">
