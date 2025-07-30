@@ -33,14 +33,14 @@ const Header: React.FC = () => {
 
   return (
     <header ref={headerRef} className="fixed top-0 left-0 right-0 z-50 bg-white/90 dark:bg-slate-900/90 backdrop-blur-md border-b border-slate-200 dark:border-slate-700">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4 py-1 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           <Link to="/" className="flex items-center space-x-3 group">
-            <div className="">
-              <div className="relative rounded-xl w-40">
+            <div className="flex flex-col items-center justify-center">
+              <div className="relative rounded-xl w-56">
                 <img src={"public/sret/sret-logo-cropped.png"} />
               </div>
-              <div className="text-sm font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-teal-600 bg-clip-text text-transparent">Machine Learning Club</div>
+              <div className="flex flex-col items-center justify-center text-lg font-bold bg-gradient-to-r from-blue-600 via-purple-600 to-teal-600 bg-clip-text text-transparent">Machine Learning Club</div>
             </div>
           </Link>
 

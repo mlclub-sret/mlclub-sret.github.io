@@ -4,16 +4,22 @@ import { Mail } from 'lucide-react';
 const Contact: React.FC = () => {
   const teamMembers = [
     {
-      name: 'Rajitvel Perumal D',
-      role: 'Head of the Club & Secretary',
-      email: 'e0122031@sret.edu.in',
-      image: 'images/avatars/rajitvel-e0122031.jpeg'
+      name: 'Sakthi R',
+      role: 'Head of the Club',
+      email: 'e0123009@sriher.edu.in',
+      image: 'images/avatars/sakthi-r.png'
     },
     {
-      name: 'Mohanavel SK',
+      name: 'Leelanandha Kishore',
       role: 'Associate Head of the Club',
-      email: 'e0122201@sriher.edu.in',
-      image: 'images/avatars/mohanavel-e0122201.JPG'
+      email: 'e0123015@sriher.edu.in',
+      image: 'images/avatars/leela-nandha-kishore.jpeg'
+    },
+    {
+      name: 'Nivedh Manoj',
+      role: 'Secretary & Technical Editor',
+      email: 'e0123003@sriher.edu.in',
+      image: 'images/avatars/nivedh-manoj.png'
     },
   ];
 

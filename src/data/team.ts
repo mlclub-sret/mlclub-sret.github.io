@@ -13,6 +13,68 @@ type TeamDetails = {
 
 export const team_details: TeamDetails = [
     {
+        batch: '2025 - 26',
+        team: [
+            {
+                name: 'Sakthi R',
+                role: 'Head of the Club',
+                department: 'AIML',
+                image: 'images/avatars/sakthi-r.png',
+                email: 'sakthi7613ramadassk@gmail.com',
+                linkedin: 'https://www.linkedin.com/in/sakthi-ramadass-089795315',
+            },
+            {
+                name: 'Leelanandha Kishore',
+                role: 'Associate Head of the Club',
+                department: 'AIML',
+                image: 'images/avatars/leela-nandha-kishore.jpeg',
+                linkedin: 'https://www.linkedin.com/in/leelanandha-kishore-k-s',
+                email: 'kslnk1511@gmail.com'
+            },
+            {
+                name: 'Nivedh Manoj',
+                role: 'Secretary & Technical Editor',
+                department: 'AIML',
+                image: 'images/avatars/nivedh-manoj.png',
+                github: 'https://github.com/amitonis',
+                linkedin: 'https://www.linkedin.com/in/nivedh-manoj/',
+            },
+            {
+                name: 'Amit Manoranjan Udayar',
+                role: 'Technical Editor',
+                department: 'AIML',
+                image: 'images/avatars/amit-manoranjan-udayar.png',
+                linkedin: 'https://www.linkedin.com/in/amit-manoranjan-3b920825b',
+            },
+            {
+                name: 'Raagavendran Sundar',
+                role: 'Creative Director',
+                department: 'AIML',
+                image: 'images/avatars/raagavendran-sundar.png',
+                email: 'raagavendransundar28@gmail.com',
+                github: 'https://github.com/raagav05',
+                linkedin: 'https://www.linkedin.com/in/raagavendran-sundar-33851028a',
+            },
+            {
+                name: 'Rajitvel Perumal D',
+                role: 'Senior Advisor',
+                department: 'AIML',
+                linkedin: 'https://www.linkedin.com/in/rajitvel-perumal-d/',
+                image: 'images/avatars/rajitvel-e0122031.jpeg',
+                email: 'rajitvelp@gmail.com'
+            },
+            {
+                name: 'Mohanavel SK',
+                role: 'Senior Advisor',
+                department: 'AIML',
+                image: 'images/avatars/mohanavel-e0122201.JPG',
+                github: 'https://github.com/mohanavel15',
+                linkedin: 'https://www.linkedin.com/in/mohanavel-sk/',
+                email: 'mailtomohan.dev@gmail.com'
+            },
+        ]
+    },
+    {
         batch: '2024 - 25',
         team: [
             {
