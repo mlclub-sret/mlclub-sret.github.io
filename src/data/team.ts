@@ -36,7 +36,6 @@ export const team_details: TeamDetails = [
                 role: 'Secretary & Technical Editor',
                 department: 'AIML',
                 image: 'images/avatars/nivedh-manoj.png',
-                github: 'https://github.com/amitonis',
                 linkedin: 'https://www.linkedin.com/in/nivedh-manoj/',
             },
             {
@@ -44,6 +43,7 @@ export const team_details: TeamDetails = [
                 role: 'Technical Editor',
                 department: 'AIML',
                 image: 'images/avatars/amit-manoranjan-udayar.png',
+                github: 'https://github.com/amitonis',
                 linkedin: 'https://www.linkedin.com/in/amit-manoranjan-3b920825b',
             },
             {
