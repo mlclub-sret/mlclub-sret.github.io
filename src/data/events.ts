@@ -15,6 +15,18 @@ type EventDetails = {
 
 export const events: EventDetails = [
     {
+      title: 'MindScape: Word Discovery',
+      date: '2025-09-17',
+      time: '11:00 AM - 12:00 PM',
+      location: 'AIML Lab (Class Room 2)',
+      type: 'Game',
+      description: 'Offering interactive game session to teach concepts of ML, DL, & RL',
+      image: 'events/PatternPursuit-30.07.2025.jpeg',
+      tags: ['Deep Learning', 'Machine Learning', 'Reinforcement Learning', 'Critical Thinking'],
+      cta_name: 'Play The Game',
+      cta_link: 'https://www.educaplay.com/learning-resources/25330732-mindscape_word_discovery.html',
+    },
+    {
       title: 'Pattern Pursuit',
       date: '2025-07-30',
       time: '11:00 AM - 12:00 PM',
