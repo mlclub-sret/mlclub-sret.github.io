@@ -21,10 +21,11 @@ export const events: EventDetails = [
       location: 'AIML Lab (Class Room 2)',
       type: 'Game',
       description: 'Offering interactive game session to teach concepts of ML, DL, & RL',
-      image: 'events/PatternPursuit-30.07.2025.jpeg',
+      image: 'events/MindScape-Word-Discovery-17.09.2025.jpeg',
       tags: ['Deep Learning', 'Machine Learning', 'Reinforcement Learning', 'Critical Thinking'],
       cta_name: 'Play The Game',
       cta_link: 'https://www.educaplay.com/learning-resources/25330732-mindscape_word_discovery.html',
+      feedback: 'https://forms.gle/4hJjRF9MFseNeEDm8',
     },
     {
       title: 'Pattern Pursuit',
