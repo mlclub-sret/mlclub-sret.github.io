@@ -15,6 +15,50 @@ type EventDetails = {
 
 export const events: EventDetails = [
   {
+    title: 'Tech Clash',
+    date: '2026-01-14',
+    time: '11:10 AM - 12:00 PM',
+    location: 'Classroom 24',
+    type: 'Masterclass',
+    description: 'A high-energy session exploring competitive technology concepts and collaborative problem-solving.',
+    image: 'events/14jan2026.jpeg',
+    tags: ['Tech Clash', 'Innovation', 'ML Club'],
+    feedback: ''
+  },
+  {
+    title: 'Talk the Tech - Junior Edition',
+    date: '2025-11-05',
+    time: '11:10 AM - 12:00 PM',
+    location: 'Classroom 24',
+    type: 'Seminar',
+    description: 'A foundational knowledge-sharing session specifically designed for junior students to explore core tech concepts.',
+    image: 'events/5november2025.jpeg',
+    tags: ['Junior Edition', 'Tech Talk', 'Foundations'],
+    feedback: ''
+  },
+  {
+    title: 'Data Preprocessing Using Python',
+    date: '2025-10-22',
+    time: '11:10 AM - 12:00 PM',
+    location: 'Classroom 26',
+    type: 'Workshop',
+    description: 'Technical hands-on workshop covering data cleaning, normalization, and preparation using Python libraries.',
+    image: 'events/22October2025.jpg',
+    tags: ['Python', 'Data Science', 'Preprocessing'],
+    feedback: ''
+  },
+  {
+    title: 'Debating the Future',
+    date: '2025-10-08',
+    time: '11:10 AM - 12:00 PM',
+    location: 'CR 23',
+    type: 'Seminar',
+    description: 'An interactive debate session focused on the ethical and technical implications of future AI trends.',
+    image: 'events/8October2025.jpeg',
+    tags: ['Future Tech', 'Debate', 'Ethics'],
+    feedback: ''
+  },
+  {
     title: 'AI Grid Hunt',
     date: '2025-09-24',
     time: '11:00 AM - 12:00 PM',
