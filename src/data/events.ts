@@ -43,7 +43,7 @@ export const events: EventDetails = [
     location: 'Classroom 26',
     type: 'Workshop',
     description: 'Technical hands-on workshop covering data cleaning, normalization, and preparation using Python libraries.',
-    image: 'events/22October2025.jpg',
+    image: 'events/22October2025.jpeg',
     tags: ['Python', 'Data Science', 'Preprocessing'],
     feedback: ''
   },
