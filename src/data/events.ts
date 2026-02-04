@@ -15,6 +15,19 @@ type EventDetails = {
 
 export const events: EventDetails = [
   {
+    title: 'AI Ideathon',
+    date: '2026-02-04',
+    time: '11:10 AM - 12:00 PM',
+    location: 'Classroom 22',
+    type: 'Ideathon',
+    description: 'A session exploring ideas and innovations in Artificial Intelligence, encouraging creative thinking and problem-solving.',
+    image: 'events/4thFeb2026.jpeg',
+    tags: ['Ideas', 'Innovation', 'ML Club'],
+    cta_name: 'Register Now',
+    cta_link: 'https://forms.gle/Sofuv6Aywg7wwvfW9',
+    feedback: ''
+  },
+  {
     title: 'Tech Clash',
     date: '2026-01-14',
     time: '11:10 AM - 12:00 PM',
